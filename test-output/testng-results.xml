@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-18T17:11:50 IST" name="TestSuite" finished-at="2024-05-18T17:12:42 IST" duration-ms="51831">
+    <groups>
+      <group name="DataSourceUpload">
+        <method signature="VerifyDataSourceUploadTest.verifyDataSourceUpload()[pri:1, instance:com.Test.VerifyDataSourceUploadTest@128d2484]" name="verifyDataSourceUpload" class="com.Test.VerifyDataSourceUploadTest"/>
+      </group> <!-- DataSourceUpload -->
+      <group name="DataComparision">
+        <method signature="VerifyDataComparisionTest.verifyDataComparision()[pri:2, instance:com.Test.VerifyDataComparisionTest@26794848]" name="verifyDataComparision" class="com.Test.VerifyDataComparisionTest"/>
+      </group> <!-- DataComparision -->
+    </groups>
+    <test started-at="2024-05-18T17:11:50 IST" name="DataSource Upload" finished-at="2024-05-18T17:12:09 IST" duration-ms="19056">
+      <class name="com.Test.VerifyDataSourceUploadTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.Test.VerifyDataSourceUploadTest@128d2484]" started-at="2024-05-18T17:11:50 IST" name="launchApplication" finished-at="2024-05-18T17:11:55 IST" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyDataSourceUpload()[pri:1, instance:com.Test.VerifyDataSourceUploadTest@128d2484]" started-at="2024-05-18T17:11:55 IST" name="verifyDataSourceUpload" finished-at="2024-05-18T17:12:09 IST" duration-ms="13497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataSourceUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.VerifyDataSourceUploadTest@128d2484]" started-at="2024-05-18T17:12:09 IST" name="tearDown" finished-at="2024-05-18T17:12:09 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.VerifyDataSourceUploadTest -->
+    </test> <!-- DataSource Upload -->
+    <test started-at="2024-05-18T17:12:09 IST" name="DataSource Comparision" finished-at="2024-05-18T17:12:42 IST" duration-ms="32679">
+      <class name="com.Test.VerifyDataComparisionTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.Test.VerifyDataComparisionTest@26794848]" started-at="2024-05-18T17:12:09 IST" name="launchApplication" finished-at="2024-05-18T17:12:14 IST" duration-ms="4957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyDataComparision()[pri:2, instance:com.Test.VerifyDataComparisionTest@26794848]" started-at="2024-05-18T17:12:14 IST" name="verifyDataComparision" finished-at="2024-05-18T17:12:42 IST" duration-ms="27510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataComparision -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.VerifyDataComparisionTest@26794848]" started-at="2024-05-18T17:12:42 IST" name="tearDown" finished-at="2024-05-18T17:12:42 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.VerifyDataComparisionTest -->
+    </test> <!-- DataSource Comparision -->
+  </suite> <!-- TestSuite -->
+</testng-results>
